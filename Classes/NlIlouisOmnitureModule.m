@@ -104,14 +104,4 @@
 	// example property setter
 }
 
-
--(id)createSession:(id)args
-{
-    ENSURE_SINGLE_ARG(args, NSDictionary);
-    
-    NlIlouisOmnitureProxy *proxy = [[NlIlouisOmnitureProxy alloc] initWithSettings:args];
-    return [proxy autorelease];
-}
-
-
 @end

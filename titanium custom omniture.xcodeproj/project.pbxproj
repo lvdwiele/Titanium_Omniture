@@ -28,6 +28,8 @@
 		24DE9E1211C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* NlIlouisOmniture_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NlIlouisOmniture_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		BF5CD0DD1531725C00074168 /* NlIlouisOmnitureSessionProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5CD0DB1531725C00074168 /* NlIlouisOmnitureSessionProxy.h */; };
+		BF5CD0DE1531725C00074168 /* NlIlouisOmnitureSessionProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD0DC1531725C00074168 /* NlIlouisOmnitureSessionProxy.m */; };
 		BFC031231530DC2A00D34767 /* NlIlouisOmnitureProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC031211530DC2A00D34767 /* NlIlouisOmnitureProxy.h */; };
 		BFC031241530DC2A00D34767 /* NlIlouisOmnitureProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC031221530DC2A00D34767 /* NlIlouisOmnitureProxy.m */; };
 		BFC031271530DC5C00D34767 /* AppMeasurement.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC031261530DC5C00D34767 /* AppMeasurement.h */; };
@@ -51,6 +53,8 @@
 		24DE9E1011C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlIlouisOmnitureModuleAssets.m; path = Classes/NlIlouisOmnitureModuleAssets.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* NlIlouisOmniture_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlIlouisOmniture_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF5CD0DB1531725C00074168 /* NlIlouisOmnitureSessionProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlIlouisOmnitureSessionProxy.h; path = Classes/NlIlouisOmnitureSessionProxy.h; sourceTree = "<group>"; };
+		BF5CD0DC1531725C00074168 /* NlIlouisOmnitureSessionProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlIlouisOmnitureSessionProxy.m; path = Classes/NlIlouisOmnitureSessionProxy.m; sourceTree = "<group>"; };
 		BFC031171530DBB500D34767 /* libAppMeasurement-iOSDevice-armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppMeasurement-iOSDevice-armv7.a"; sourceTree = "<group>"; };
 		BFC031181530DBB500D34767 /* libAppMeasurement-iOSDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppMeasurement-iOSDevice.a"; sourceTree = "<group>"; };
 		BFC031191530DBB500D34767 /* libAppMeasurement-iOSSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppMeasurement-iOSSimulator.a"; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				24DD6CF81134B3F500162E58 /* NlIlouisOmnitureModule.m */,
 				BFC031211530DC2A00D34767 /* NlIlouisOmnitureProxy.h */,
 				BFC031221530DC2A00D34767 /* NlIlouisOmnitureProxy.m */,
+				BF5CD0DB1531725C00074168 /* NlIlouisOmnitureSessionProxy.h */,
+				BF5CD0DC1531725C00074168 /* NlIlouisOmnitureSessionProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 				24DE9E1111C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.h in Headers */,
 				BFC031231530DC2A00D34767 /* NlIlouisOmnitureProxy.h in Headers */,
 				BFC031271530DC5C00D34767 /* AppMeasurement.h in Headers */,
+				BF5CD0DD1531725C00074168 /* NlIlouisOmnitureSessionProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 				24DD6CFA1134B3F500162E58 /* NlIlouisOmnitureModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.m in Sources */,
 				BFC031241530DC2A00D34767 /* NlIlouisOmnitureProxy.m in Sources */,
+				BF5CD0DE1531725C00074168 /* NlIlouisOmnitureSessionProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
