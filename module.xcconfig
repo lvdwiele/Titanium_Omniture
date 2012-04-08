@@ -25,5 +25,5 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-OTHER_LDFLAGS[sdk=iphoneos5*]=$(inherited) "libAppMeasurement-iOSDevice-armv7.a" "libAppMeasurement-iOSDevice.a"
-OTHER_LDFLAGS[sdk=iphonesimulator5*]=$(inherited) "libAppMeasurement-iOSSimulator.a"
+OTHER_LDFLAGS[sdk=iphoneos5*]=$(inherited) "/Users/louis/Documents/Titanium Studio Workspace/Titanium Custom Omniture/libAppMeasurement-iOSDevice-armv7.a" "/Users/louis/Documents/Titanium Studio Workspace/Titanium Custom Omniture/libAppMeasurement-iOSDevice.a"
+OTHER_LDFLAGS[sdk=iphonesimulator5*]=$(inherited) "/Users/louis/Documents/Titanium Studio Workspace/Titanium Custom Omniture/libAppMeasurement-iOSSimulator.a"

@@ -63,4 +63,10 @@
     
 }
 
+-(void)dealloc
+{
+    [s dealloc];
+    [super dealloc];
+}
+
 @end
