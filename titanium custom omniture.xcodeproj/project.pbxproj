@@ -30,8 +30,6 @@
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF5CD0DD1531725C00074168 /* NlIlouisOmnitureSessionProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5CD0DB1531725C00074168 /* NlIlouisOmnitureSessionProxy.h */; };
 		BF5CD0DE1531725C00074168 /* NlIlouisOmnitureSessionProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD0DC1531725C00074168 /* NlIlouisOmnitureSessionProxy.m */; };
-		BFC031231530DC2A00D34767 /* NlIlouisOmnitureProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC031211530DC2A00D34767 /* NlIlouisOmnitureProxy.h */; };
-		BFC031241530DC2A00D34767 /* NlIlouisOmnitureProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC031221530DC2A00D34767 /* NlIlouisOmnitureProxy.m */; };
 		BFC031271530DC5C00D34767 /* AppMeasurement.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC031261530DC5C00D34767 /* AppMeasurement.h */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +56,6 @@
 		BFC031171530DBB500D34767 /* libAppMeasurement-iOSDevice-armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppMeasurement-iOSDevice-armv7.a"; sourceTree = "<group>"; };
 		BFC031181530DBB500D34767 /* libAppMeasurement-iOSDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppMeasurement-iOSDevice.a"; sourceTree = "<group>"; };
 		BFC031191530DBB500D34767 /* libAppMeasurement-iOSSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAppMeasurement-iOSSimulator.a"; sourceTree = "<group>"; };
-		BFC031211530DC2A00D34767 /* NlIlouisOmnitureProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlIlouisOmnitureProxy.h; path = Classes/NlIlouisOmnitureProxy.h; sourceTree = "<group>"; };
-		BFC031221530DC2A00D34767 /* NlIlouisOmnitureProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlIlouisOmnitureProxy.m; path = Classes/NlIlouisOmnitureProxy.m; sourceTree = "<group>"; };
 		BFC031261530DC5C00D34767 /* AppMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMeasurement.h; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libNlIlouisOmniture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNlIlouisOmniture.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,8 +110,6 @@
 				24DE9E1011C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* NlIlouisOmnitureModule.h */,
 				24DD6CF81134B3F500162E58 /* NlIlouisOmnitureModule.m */,
-				BFC031211530DC2A00D34767 /* NlIlouisOmnitureProxy.h */,
-				BFC031221530DC2A00D34767 /* NlIlouisOmnitureProxy.m */,
 				BF5CD0DB1531725C00074168 /* NlIlouisOmnitureSessionProxy.h */,
 				BF5CD0DC1531725C00074168 /* NlIlouisOmnitureSessionProxy.m */,
 			);
@@ -141,7 +135,6 @@
 				AA747D9F0F9514B9006C5449 /* NlIlouisOmniture_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* NlIlouisOmnitureModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.h in Headers */,
-				BFC031231530DC2A00D34767 /* NlIlouisOmnitureProxy.h in Headers */,
 				BFC031271530DC5C00D34767 /* AppMeasurement.h in Headers */,
 				BF5CD0DD1531725C00074168 /* NlIlouisOmnitureSessionProxy.h in Headers */,
 			);
@@ -216,7 +209,6 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* NlIlouisOmnitureModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* NlIlouisOmnitureModuleAssets.m in Sources */,
-				BFC031241530DC2A00D34767 /* NlIlouisOmnitureProxy.m in Sources */,
 				BF5CD0DE1531725C00074168 /* NlIlouisOmnitureSessionProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
