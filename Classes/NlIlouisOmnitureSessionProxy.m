@@ -10,7 +10,7 @@
 #import "TiUtils.h"
 
 @implementation NlIlouisOmnitureSessionProxy
-@synthesize s;//, account, debugTracking, offlineLimit, trackingServer, trackOffline;
+@synthesize s;
 
 -(id)init
 {
@@ -18,7 +18,6 @@
     {
         
         self.s = [[AppMeasurement alloc] init];
-        NSLog(@"[ERROR] INIT IS AANGEROEPEN");
     }
     
     return self;
